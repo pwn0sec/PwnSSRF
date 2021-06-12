@@ -7,7 +7,7 @@ SSRF being one of the critical vulnerabilities out there in web, i see there was
 vulnerable parameters. PwnSSRF can be added to your arsenal for recon while doing bug hunting/web security testing.
 
  
-## Screenshots
+## Screenshots 
 ![Example](example/pwnssrf.png)
 
 ## Tech/framework used
