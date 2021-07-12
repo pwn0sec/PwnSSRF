@@ -3,7 +3,7 @@
 A Python based scanner to find potential SSRF parameters in a web application.
 
 ## Motivation
-SSRF being one of the critical vulnerabilities out there in web, i see there was no tool which would automate finding potential
+SSRF being one of the critical vulnerability out there in web application, I saw there was no tool which would automate finding potential
 vulnerable parameters. PwnSSRF can be added to your arsenal for recon while doing bug hunting/web security testing.
 
  
@@ -15,8 +15,8 @@ vulnerable parameters. PwnSSRF can be added to your arsenal for recon while doin
 - `Python3`
 
 ## Features
-1) Takes burp's sitemap as input and parses and parses the file with a strong regex matches any GET/POST URL parameters containing potentially vulnerable SSRF keywords like URL/website etc. Also,
-checks the parameter values for any URL or IP address passed.
+1) Takes burp's sitemap as input and parses file with a strong regex matches any GET/POST URL parameters containing potentially vulnerable SSRF keywords like URL/website etc. Also,
+Checks the parameter values for any URL or IP address passed.
 Examples
 GET request -<br/>
 google.com/url=https://yahoo.com <br/>
